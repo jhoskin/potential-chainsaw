@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  racket:
+    command: tail -f /dev/null
+    build:
+      context: .
+      dockerfile: Dockerfile
